@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de carrinho de compras</h1>
+        <div id="container">
+            <i onmouseover="porcima()" class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </header>
+    <section id="produtos">
+        <h1>Nossos produtos</h1>
+        <div class="produto">
+            <h2>Cadeira Gamer</h2>
+            <img class="diferente" src="cadeira_gamer.jpg" alt="">
+            <p class="preco">De <del>R$1999.99</del> por <strong>R$999.99</strong></p>
+            <ul id="caracteristicas">
+                <li>Conforto Inigualável</li>
+                <li>Ajuste Personalizado</li>
+                <li>Durabilidade e estilo</li>
+            </ul>
+            <button class="mudarcor" onclick="adicionar()">Adicionar ao carrinho</button>
+        </div>
+        <div class="produto">
+            <h2>Mouse Gamer</h2>
+            <img class="diferente" src="mouse.webp" alt="">
+            <p class="preco">De <del>R$350.00</del> por <strong>R$250.00</strong></p>
+            <ul id="caracteristicas">
+                <li>Resistência a água</li>
+                <li>Alta Durabilidade</li>
+            </ul>
+            <button class="mudarcor" onclick="adicionar()">Adicionar ao carrinho</button>
+        </div>
+        <div class="produto">
+            <h2>Teclado Gamer</h2>
+            <img class="diferente" src="teclado.jpg" alt="">
+            <p class="preco">De <del>R$350.00</del> por <strong>R$250.00</strong></p>
+            <ul id="caracteristicas">
+                <li>Resistência a água</li>
+                <li>Alta Durabilidade</li>
+            </ul>
+            <button class="mudarcor" onclick="adicionar()">Adicionar ao carrinho</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

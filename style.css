@@ -1,0 +1,42 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    text-align: center;
+}
+
+i{
+    font-size: 30px;
+    position: absolute;
+    margin-left: -650px;
+    margin-top: -40px;
+}
+
+section{
+    text-align: center;
+}
+
+
+.produto{
+    display: inline-block;
+    background: rgb(167, 167, 167);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.diferente{
+    height: 235px;
+    width: 175px;
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
